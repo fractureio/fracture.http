@@ -7,8 +7,8 @@
     <owners>@authors@</owners>
     <language>en-US</language>
     <summary>@description@</summary>
-    <projectUrl>http://github.com/fractureio/fracture</projectUrl>
-    <licenseUrl>http://github.com/fractureio/fracture/raw/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://github.com/fractureio/fracture.http</projectUrl>
+    <licenseUrl>http://github.com/fractureio/fracture.http/raw/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>@description@</description>
     <tags>socket networking tcp http fsharp</tags>

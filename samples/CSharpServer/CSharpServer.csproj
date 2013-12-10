@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Fracture">
+      <HintPath>..\..\packages\Fracture.0.9.2\lib\net40\Fracture.dll</HintPath>
+    </Reference>
     <Reference Include="FSharp.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\FSharp.Core.4.0.0\lib\FSharp.Core.dll</HintPath>
@@ -64,10 +67,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\fracture\Fracture.fsproj">
-      <Project>{020697d7-24a3-4ce4-a326-d2c7c204ffde}</Project>
-      <Name>Fracture</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\http\Fracture.Http.fsproj">
       <Project>{13571762-e1c9-492a-9141-37aa0094759a}</Project>
       <Name>Fracture.Http</Name>
